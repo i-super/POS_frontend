@@ -1,0 +1,18 @@
+.filter-inventory {
+  margin-top: 10px;
+  background-color: #efefef;
+  padding: 20px;
+  border-radius: 10px;
+}
+.invent-submit {
+  margin-top: 30px;
+  text-align: center;
+}
+.invent-submit button {
+  background-color: #283f68;
+  color: #ffff;
+  border: none;
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+}

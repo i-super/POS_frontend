@@ -1,0 +1,28 @@
+.invet-glance-item {
+  display: flex;
+  margin-top: 15px;
+  border: 2px solid #656565;
+  padding: 10px;
+  background-color: #ffff;
+  border-radius: 10px;
+}
+.item-name {
+  width: 50%;
+}
+.item-name p {
+  margin: 0 !important;
+  color: #283f68;
+  font-weight: bold;
+}
+.item-name span {
+  font-size: 13px;
+  color: gray;
+}
+.items-price {
+  width: 50%;
+  text-align: right;
+}
+
+.item-sold-btntxt .table-btnTxt {
+  width: 155px !important;
+}

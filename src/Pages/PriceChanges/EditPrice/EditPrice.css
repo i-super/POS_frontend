@@ -1,0 +1,15 @@
+.item-title {
+  background-color: #656565;
+  padding: 15px;
+  color: #283f68;
+  border-radius: 10px;
+}
+.specify-price {
+  background-color: #efefef;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.specify-price button {
+  background-color: #656565;
+}

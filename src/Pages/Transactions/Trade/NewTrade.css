@@ -1,0 +1,8 @@
+.action-icons-edit-del span a {
+  color: #283f68 !important;
+  font-size: 20px;
+}
+
+.action-icons-edit-del span a:hover {
+  color: #656565 !important;
+}

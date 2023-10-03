@@ -1,0 +1,73 @@
+:scope {
+  --pagination-hover-color: #d7d8e1;
+}
+
+.jkc-custom-data-table-header {
+  margin-bottom: 5px;
+}
+
+.jkc-custom-data-table .rdt_TableHeadRow .rdt_TableCol:last-child {
+  border-right: 0.5pt solid #ccc !important;
+}
+
+.jkc-custom-data-table .rdt_TableRow .rdt_TableCell:last-child {
+  border-right: 0.5pt solid #d7d8e1 !important;
+}
+
+.jkc-custom-data-table-search-clear-icon {
+  position: relative;
+  right: 26px;
+  top: -1px;
+  cursor: pointer;
+}
+
+.jkc-custom-data-table .rdt_TableCol_Sortable {
+  display: flex;
+}
+
+.jkc-custom-data-table .rdt_TableCol_Sortable div {
+  width: 100%;
+}
+
+.jkc-custom-data-table-pagination button {
+  min-width: 32px;
+}
+
+.jkc-custom-data-table-pagination li {
+  margin-left: 3px;
+  margin-right: 3px;
+  list-style: none;
+}
+
+.jkc-custom-data-table-pagination .next-prev-btn {
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+
+.jkc-custom-data-table-pagination button:hover {
+  background-color: var(--pagination-hover-color) !important;
+  border: 1px solid var(--pagination-hover-color) !important;
+}
+
+.jkc-custom-data-table-pagination li:last-child {
+  margin-right: 0px;
+}
+
+.jkc-custom-data-table-search-input {
+  flex: auto;
+  align-items: start;
+  text-align: left;
+}
+.jkc-custom-data-table-search-input input {
+  width: 300px;
+  padding: 0px 7px;
+  font-size: 15px;
+  border: 1px solid rgb(211, 211, 211);
+  outline: none;
+  text-align: left;
+  border-radius: 4px;
+  height: 32px;
+}

@@ -1,0 +1,92 @@
+.new-sale-main {
+  margin-top: 20px;
+}
+.new-sale-action {
+  background-color: #283f68;
+  border: none !important;
+  color: #ffff;
+  padding: 15px;
+  border-radius: 5px;
+}
+.new-sale-receipt {
+  margin-top: 20px;
+}
+.receipt-main {
+  padding: 10px;
+  border-radius: 10px;
+}
+.customer-sale {
+  padding: 10px;
+  border-radius: 10px;
+}
+.customer-sale-new {
+  background-color: #656565;
+  padding: 15px;
+  border-radius: 10px;
+  /* color: #ffff; */
+}
+
+.customer-sale-new button {
+  width: 100px;
+  background-color: #656565;
+  border: 2px solid #ffff;
+  color: #ffff;
+  border-radius: 5px;
+}
+.show-cus-details {
+  background-color: #efefef;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.receipt-new-sale-main {
+  border: 2px solid #656565;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.sales-actions {
+  margin-top: 15px;
+}
+
+.discount {
+  color: #283f68;
+  border-bottom: 1px solid #283f68;
+}
+.sale-pay button {
+  padding: 10px;
+  width: 150px;
+  background-color: #656565;
+  color: #ffff;
+  border-radius: 10px;
+  border: none;
+}
+
+.payment-actions button {
+  padding: 10px;
+  background-color: #656565;
+  border-radius: 10px;
+  border: none !important;
+  color: #ffff;
+}
+.apply-credit button {
+  background-color: #656565;
+  padding: 10px;
+  border: none;
+  color: #ffff;
+  border-radius: 10px;
+}
+.apply-credit p {
+  color: #283f68;
+}
+
+.apply-credit p span {
+  color: gray;
+}
+
+.no-of-items h5 {
+  background-color: #656565;
+  padding: 10px;
+  border-radius: 10px;
+  color: #ffff;
+}

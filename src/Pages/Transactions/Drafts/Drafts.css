@@ -1,0 +1,6 @@
+.react-google-flight-datepicker .date-picker-input {
+  height: unset !important;
+}
+.react-google-flight-datepicker .date-picker {
+  padding: 0 !important;
+}

@@ -1,0 +1,162 @@
+@font-face {
+  font-family: "Josefin-Regular";
+  src: url("./assets/fonts/josefin/JosefinSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Josefin-bold";
+  src: url("./assets/fonts/josefin/JosefinSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Josefin-light";
+  src: url("./assets/fonts/josefin/JosefinSans-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Josefin-medium";
+  src: url("./assets/fonts/josefin/JosefinSans-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Josefin-semibold";
+  src: url("./assets/fonts/josefin/JosefinSans-SemiBold.ttf") format("truetype");
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Josefin-Regular" !important;
+}
+
+/* Sidebar */
+:root {
+  --offcanvas-width: 250px;
+  --topNavbarHeight: 58px;
+}
+.sidebar-nav {
+  width: var(--offcanvas-width) !important;
+}
+.sidebar-link {
+  display: flex;
+  align-items: center;
+}
+.sidebar-link .right-icon {
+  display: inline-flex;
+}
+.sidebar-link[aria-expanded="true"] .right-icon {
+  transform: rotate(180deg);
+}
+.pos-sidebar {
+  background-color: rgb(48, 48, 48) !important;
+}
+
+.pos-sidebar ul li {
+  margin-top: 15px;
+}
+main {
+  padding: 10px;
+}
+
+.option-name {
+  font-weight: 800;
+  color: #283f68;
+}
+.option-name label a {
+  text-decoration: none;
+  background-color: #283f68;
+  padding: 5px;
+  /* color: #656565; */
+  color: #ffff;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.option-save {
+  margin-top: 37px !important;
+}
+.option-save button {
+  background-color: #283f68;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  color: #ffff;
+  border: none;
+}
+
+.itemOptions h2 {
+  background-color: #283f68;
+  color: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 1.5px;
+}
+
+.Inventory-category {
+  padding: 5px;
+}
+.Inventory-category h4 {
+  background-color: #283f68;
+  padding: 5px;
+  color: #ffff;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.inventory-separate {
+  color: #ffff !important;
+  background-color: darkgray;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.inventory-separate h5 {
+  margin: 0 !important;
+}
+
+.heading-main-page {
+  font-family: "Josefin-bold";
+}
+
+.book-details-btn a,
+.book-details-btn button,
+.book-details-btn a:hover,
+.book-details-btn button:hover {
+  background-color: #283f68;
+  color: #ffff;
+}
+.save-btn {
+  background-color: #283f68 !important;
+  color: #ffff !important;
+}
+
+/* @media screen and (min-width: 992px) {
+  main {
+    margin-left: var(--offcanvas-width) !important;
+  }
+  .offcanvas-backdrop::before {
+    display: none;
+  }
+  .sidebar-nav {
+    -webkit-transform: none !important;
+    transform: none !important;
+    visibility: visible !important;
+    height: calc(100% - var(--topNavbarHeight));
+    top: var(--topNavbarHeight) !important;
+  }
+} */
+
+/* Sidebar */
+
+/* Table */
+
+.table-responsive {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  border-radius: 10px;
+}
+/* Table */

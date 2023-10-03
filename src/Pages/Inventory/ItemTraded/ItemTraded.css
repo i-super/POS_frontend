@@ -1,0 +1,18 @@
+.invet-glance {
+  background-color: #efefef;
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.invet-glance h6 {
+  text-align: center;
+  background-color: #656565;
+  padding: 10px;
+  border-radius: 10px;
+  color: #283f68;
+}
+.item-traded-btnTxt .table-btnTxt {
+  width: 155px !important;
+}
+.invet-glance-item {
+}

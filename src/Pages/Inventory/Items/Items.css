@@ -1,0 +1,38 @@
+.filter-inventory {
+  margin-top: 10px;
+  background-color: #efefef;
+  padding: 20px;
+  border-radius: 10px;
+}
+.invent-submit {
+  margin-top: 30px;
+  text-align: center;
+}
+.invent-submit button {
+  background-color: #283f68;
+  color: #ffff;
+  border: none;
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+}
+.invent-display {
+  display: flex;
+  /* justify-content: space-between; */
+  font-family: "Josefin-semibold";
+}
+.invent-display h5 {
+  font-size: 18px;
+}
+.option-invent {
+  font-family: "Josefin-bold";
+}
+.option-result {
+  font-family: "Josefin-semibold";
+  color: rgb(105, 105, 105);
+}
+.category {
+  background-color: coral;
+  padding: 10px;
+  border-radius: 5px;
+}
